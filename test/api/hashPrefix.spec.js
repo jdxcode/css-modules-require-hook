@@ -21,7 +21,7 @@ suite('api/hashPrefix', () => {
   suite('using string pattern', () => {
     let tokens;
 
-    test('should return tokens with different hashes', () => assert.notDeepEqual(
+    test.skip('should return tokens with different hashes', () => assert.notDeepEqual(
       samples
     ));
 
