@@ -1,6 +1,4 @@
-'use strict';
-
-const {camelizeDashes, transformTokens} = require('../../lib/transformTokens');
+const {camelizeDashes, transformTokens} = require('../../src/transformTokens');
 
 suite('lib/transformTokens', () => {
   test('camelizeDashes', () => {

@@ -1,4 +1,4 @@
-const validate = require('../../lib/validate');
+const validate = require('../../src/validate');
 
 suite('lib/validate', () => {
   test('should thrown an error for the option with multiple types if wrong type specified', () => {
